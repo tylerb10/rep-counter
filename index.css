@@ -1,0 +1,57 @@
+#bodyDiv{
+    max-width: 350px;
+    margin: auto;
+    background-color: white;
+    opacity: .75;
+    border: solid;
+    border-radius: 10px;
+}
+
+body {
+    background-image: url("gymImage.jpeg");
+    background-size: cover;
+    font-family:  'Open Sans', BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: rgb(0, 132, 255);
+    border: 2px solid blue
+    
+}
+
+#increment-btn:hover {
+    background-color: blue;
+}
+
+#save-btn {
+    background: rgb(254, 57, 57);
+    border: 2px solid red
+}
+
+#save-btn:hover {
+    background-color: red;
+}
+
